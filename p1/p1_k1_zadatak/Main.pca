@@ -1,0 +1,49 @@
+﻿n = 1
+d = 2
+adrA = 3
+adrB = 4
+remainder1 = 5
+remainder2 = 6
+digit = 7 
+A = 100
+B = 200
+org 8
+
+in n
+bgt 0, n, end
+beq 0, n, end
+
+mov adrA, #A
+in (adrA), n
+
+in d
+bgt 0, d, end
+beq 0, d, end
+
+out (adrA), n
+out d
+
+mov adrB, #B
+mov remainder1, 0
+
+loop: jsr divide
+add adrA, adrA, 1
+sub n, n, 1
+beq digit, 0, loop
+mov (adrB), digit
+add adrB, adrB, 1
+bgt n, 0, loop
+
+print: sub n, adrB, #B
+mov adrB, #B
+out (adrB), n
+
+end: stop
+
+divide: mul remainder2, remainder1, 10
+add remainder2, remainder2, (adrA)
+div digit, remainder2, d
+mul remainder1, digit, d
+sub remainder1, remainder2, remainder1
+
+back: rts

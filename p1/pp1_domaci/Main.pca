@@ -1,0 +1,46 @@
+﻿symbol = 1
+push_symbol = 2
+pop_symbol = 3
+end_symbol = 4
+adrStack = 5
+adrSp = 6
+adrTemp = 7
+S = 100
+T = 200
+org 8
+
+mov adrStack, #S
+mov adrTemp, #T
+mov adrSp, adrStack
+
+mov push_symbol, 1
+mov pop_symbol, 2
+mov end_symbol, -1
+
+loop: in symbol
+jsr push
+jsr pop
+beq symbol, end_symbol, print
+beq symbol, symbol, loop
+
+print: sub symbol, adrTemp, #T
+mov adrTemp, #T 
+out (adrTemp), symbol
+
+end: stop
+
+push: bgt push_symbol, symbol, back
+bgt symbol, push_symbol, back
+in (adrStack)
+add adrStack, adrStack, 1
+mov adrSp, adrStack
+rts
+
+pop: bgt pop_symbol, symbol, back
+bgt symbol, pop_symbol, back
+sub adrSp, adrSp, 1
+mov (adrTemp), (adrSp)
+add adrTemp, adrTemp, 1
+mov adrStack, adrSp
+
+back: rts

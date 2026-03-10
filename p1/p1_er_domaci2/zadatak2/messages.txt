@@ -1,0 +1,9 @@
+pp230123d@student.etf.bg.ac.rs|jocke@etf.rs-Postovani, imam pitanje.
+pp230123d@student.etf.bg.ac.rs|dj@etf.rs-Postovani, imam pitanje.
+miobra@etf.bg.ac.rs|jocke@etf.bg.ac.rs-Zdravo Jocke!
+jocke@etf.bg.ac.rs|miobra@etf.bg.ac.rs-Zdravo Miobra!
+miobra@etf.bg.ac.rs|jocke@etf.bg.ac.rs-Zdravo Jocke!
+pp230123d@student.etf.rs|aleksa@etf.rs-Postovani, imam pitanje.
+pp230123d@student.etf.rs|miobra@etf.bg.ac.rs-Postovani, imam pitanje.
+miobra@etf.bg.ac.rs|aleksa@etf.rs-Tekst-sa-crticom|.
+pp230123d@student.etf.rs|miobra@arh.bg.ac.rs-Postovani, greska.
