@@ -1,0 +1,10 @@
+C++,2008,1,46
+Objective C,2019,1,150
+Objective C,2019,2,150
+Objective C,2019,3,150
+Objective C,2019,4,150
+Java,2020,1,47
+Python,2020,1,100
+Python,2020,2,120
+Python,2020,3,135
+Python,2020,4,93
