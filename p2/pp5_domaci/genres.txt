@@ -1,0 +1,8 @@
+Adventure,9780000000005,Adventures of Huckleberry Finn,4.70
+Fiction,9780000000010,The Brothers Karamazov,4.90
+Gothic,9780000000017,The Picture of Dorian Gray,4.70
+Historical,9780000000007,War and Peace,4.80
+Horror,9780000000012,Dracula,4.70
+Romance,9780000000001,Pride and Prejudice,4.80
+Satire,9780000000006,A Connecticut Yankee in King Arthurs Court,4.20
+Science Fiction,9780000000018,The Time Machine,4.50

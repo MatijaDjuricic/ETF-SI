@@ -1,0 +1,14 @@
+Anne Bronte,1,4.40
+Bram Stoker,1,4.70
+Charlotte Bronte,1,4.80
+Emily Bronte,1,4.50
+Fyodor Dostoevsky,2,4.85
+H G Wells,1,4.50
+Jane Austen,3,4.63
+Joseph Conrad,1,4.10
+Leo Tolstoy,2,4.75
+Mark Twain,3,4.47
+Mary Shelley,1,4.60
+Oscar Wilde,1,4.70
+Robert Louis Stevenson,1,4.60
+Victor Hugo,1,4.80
